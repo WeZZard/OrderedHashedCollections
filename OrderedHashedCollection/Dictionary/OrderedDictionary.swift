@@ -1,6 +1,6 @@
 //
-//  OrderedDictionary.swift
-//  OrderedDictionary
+//  OrderedHashedCollection.swift
+//  OrderedHashedCollection
 //
 //  Created by WeZZard on 27/01/2018.
 //
@@ -20,8 +20,8 @@ public struct OrderedDictionary<Key: Hashable, Value> {
     ///
     /// - Parameter values: The sequence of values.
     /// - Parameter key: The closure which provides a key for the given
-    /// value from the values
-    ///   sequence.
+    /// value from the values sequence.
+    ///
     public init<Values: Sequence>(values: Values, keyedBy key: (Value) -> Key) where Values.Element == Value {
         self.init(values.map { (key($0), $0) })
     }

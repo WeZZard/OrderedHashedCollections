@@ -1,6 +1,6 @@
 //
-//  OrderedDictionarySlice.swift
-//  OrderedDictionary
+//  OrderedHashedCollectionSlice.swift
+//  OrderedHashedCollection
 //
 //  Created on 19/10/2018.
 //

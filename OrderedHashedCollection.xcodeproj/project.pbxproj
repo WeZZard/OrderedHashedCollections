@@ -7,9 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C953DC021798F22008089A8 /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DB621798F22008089A8 /* OrderedDictionary.framework */; };
-		9C953DDC21798F2D008089A8 /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DD321798F2D008089A8 /* OrderedDictionary.framework */; };
-		9C953E0521798F3E008089A8 /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DFC21798F3E008089A8 /* OrderedDictionary.framework */; };
+		9C8621922194A0A900D4202A /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621912194A0A900D4202A /* OrderedSet.swift */; };
+		9C8621932194A0A900D4202A /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621912194A0A900D4202A /* OrderedSet.swift */; };
+		9C8621942194A0A900D4202A /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621912194A0A900D4202A /* OrderedSet.swift */; };
+		9C8621952194A0A900D4202A /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621912194A0A900D4202A /* OrderedSet.swift */; };
+		9C86219B21951BD100D4202A /* OrderedSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621962194A48D00D4202A /* OrderedSetTests.swift */; };
+		9C86219C21951BD200D4202A /* OrderedSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621962194A48D00D4202A /* OrderedSetTests.swift */; };
+		9C86219D21951BD200D4202A /* OrderedSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621962194A48D00D4202A /* OrderedSetTests.swift */; };
+		9C8621A321957E3A00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86219E21957E3400D4202A /* OrderedSet+RandomAccessCollectionTests.swift */; };
+		9C8621A421957E3B00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86219E21957E3400D4202A /* OrderedSet+RandomAccessCollectionTests.swift */; };
+		9C8621A521957E3B00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86219E21957E3400D4202A /* OrderedSet+RandomAccessCollectionTests.swift */; };
+		9C8621B021957E5800D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621A621957E4600D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift */; };
+		9C8621B121957E5800D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621AB21957E5300D4202A /* OrderedSet+SetAlgebraTests.swift */; };
+		9C8621B221957E5800D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621A621957E4600D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift */; };
+		9C8621B321957E5800D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621AB21957E5300D4202A /* OrderedSet+SetAlgebraTests.swift */; };
+		9C8621B421957E5900D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621A621957E4600D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift */; };
+		9C8621B521957E5900D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621AB21957E5300D4202A /* OrderedSet+SetAlgebraTests.swift */; };
+		9C8621B72195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */; };
+		9C8621B82195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */; };
+		9C8621B92195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */; };
+		9C8621BA2195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */; };
+		9C8621BC2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */; };
+		9C8621BD2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */; };
+		9C8621BE2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */; };
+		9C8621BF2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */; };
+		9C8621C12195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */; };
+		9C8621C22195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */; };
+		9C8621C32195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */; };
+		9C8621C42195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */; };
+		9C953DC021798F22008089A8 /* OrderedHashedCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DB621798F22008089A8 /* OrderedHashedCollection.framework */; };
+		9C953DDC21798F2D008089A8 /* OrderedHashedCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DD321798F2D008089A8 /* OrderedHashedCollection.framework */; };
+		9C953E0521798F3E008089A8 /* OrderedHashedCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953DFC21798F3E008089A8 /* OrderedHashedCollection.framework */; };
 		9C953E1A21798FA5008089A8 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C953E1921798FA5008089A8 /* OrderedDictionary.swift */; };
 		9C953E1B21798FA5008089A8 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C953E1921798FA5008089A8 /* OrderedDictionary.swift */; };
 		9C953E1C21798FA5008089A8 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C953E1921798FA5008089A8 /* OrderedDictionary.swift */; };
@@ -48,13 +76,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C953DB621798F22008089A8 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953DBF21798F22008089A8 /* OrderedDictionary-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedDictionary-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953DD321798F2D008089A8 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953DDB21798F2D008089A8 /* OrderedDictionary-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedDictionary-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953DEF21798F34008089A8 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953DFC21798F3E008089A8 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953E0421798F3E008089A8 /* OrderedDictionary-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedDictionary-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8621912194A0A900D4202A /* OrderedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedSet.swift; sourceTree = "<group>"; };
+		9C8621962194A48D00D4202A /* OrderedSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedSetTests.swift; sourceTree = "<group>"; };
+		9C86219E21957E3400D4202A /* OrderedSet+RandomAccessCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+RandomAccessCollectionTests.swift"; sourceTree = "<group>"; };
+		9C8621A621957E4600D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+RangeReplaceableCollectionTests.swift"; sourceTree = "<group>"; };
+		9C8621AB21957E5300D4202A /* OrderedSet+SetAlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+SetAlgebraTests.swift"; sourceTree = "<group>"; };
+		9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+RandomAccessCollection.swift"; sourceTree = "<group>"; };
+		9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+RangeReplaceableCollection.swift"; sourceTree = "<group>"; };
+		9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedSet+SetAlgebra.swift"; sourceTree = "<group>"; };
+		9C953DB621798F22008089A8 /* OrderedHashedCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedHashedCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953DBF21798F22008089A8 /* OrderedHashedCollectionUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedHashedCollectionUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953DD321798F2D008089A8 /* OrderedHashedCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedHashedCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953DDB21798F2D008089A8 /* OrderedHashedCollectionUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedHashedCollectionUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953DEF21798F34008089A8 /* OrderedHashedCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedHashedCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953DFC21798F3E008089A8 /* OrderedHashedCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedHashedCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953E0421798F3E008089A8 /* OrderedHashedCollectionUnitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderedHashedCollectionUnitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C953E1521798F88008089A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C953E1821798F88008089A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C953E1921798FA5008089A8 /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
@@ -74,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953DC021798F22008089A8 /* OrderedDictionary.framework in Frameworks */,
+				9C953DC021798F22008089A8 /* OrderedHashedCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953DDC21798F2D008089A8 /* OrderedDictionary.framework in Frameworks */,
+				9C953DDC21798F2D008089A8 /* OrderedHashedCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,18 +147,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953E0521798F3E008089A8 /* OrderedDictionary.framework in Frameworks */,
+				9C953E0521798F3E008089A8 /* OrderedHashedCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C86218D2194A01F00D4202A /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				9C953E1921798FA5008089A8 /* OrderedDictionary.swift */,
+				9C953E1E21798FBD008089A8 /* OrderedDictionarySlice.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		9C86218E2194A02400D4202A /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				9C8621912194A0A900D4202A /* OrderedSet.swift */,
+				9C8621B62195810A00D4202A /* OrderedSet+RandomAccessCollection.swift */,
+				9C8621BB2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift */,
+				9C8621C02195812B00D4202A /* OrderedSet+SetAlgebra.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		9C86218F2194A02800D4202A /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				9C953E232179903B008089A8 /* OrderedDictionaryTests.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		9C8621902194A02E00D4202A /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				9C8621962194A48D00D4202A /* OrderedSetTests.swift */,
+				9C86219E21957E3400D4202A /* OrderedSet+RandomAccessCollectionTests.swift */,
+				9C8621A621957E4600D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift */,
+				9C8621AB21957E5300D4202A /* OrderedSet+SetAlgebraTests.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
 		9C953CDF21797EC0008089A8 = {
 			isa = PBXGroup;
 			children = (
-				9C953E1621798F88008089A8 /* OrderedDictionary */,
-				9C953E1321798F88008089A8 /* OrderedDictionaryTests */,
+				9C953E1621798F88008089A8 /* OrderedHashedCollection */,
+				9C953E1321798F88008089A8 /* OrderedHashedCollectionUnitTests */,
 				9C953DB721798F22008089A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,24 +205,25 @@
 		9C953DB721798F22008089A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C953DB621798F22008089A8 /* OrderedDictionary.framework */,
-				9C953DBF21798F22008089A8 /* OrderedDictionary-macOSTests.xctest */,
-				9C953DD321798F2D008089A8 /* OrderedDictionary.framework */,
-				9C953DDB21798F2D008089A8 /* OrderedDictionary-iOSTests.xctest */,
-				9C953DEF21798F34008089A8 /* OrderedDictionary.framework */,
-				9C953DFC21798F3E008089A8 /* OrderedDictionary.framework */,
-				9C953E0421798F3E008089A8 /* OrderedDictionary-tvOSTests.xctest */,
+				9C953DB621798F22008089A8 /* OrderedHashedCollection.framework */,
+				9C953DBF21798F22008089A8 /* OrderedHashedCollectionUnitTests-macOS.xctest */,
+				9C953DD321798F2D008089A8 /* OrderedHashedCollection.framework */,
+				9C953DDB21798F2D008089A8 /* OrderedHashedCollectionUnitTests-iOS.xctest */,
+				9C953DEF21798F34008089A8 /* OrderedHashedCollection.framework */,
+				9C953DFC21798F3E008089A8 /* OrderedHashedCollection.framework */,
+				9C953E0421798F3E008089A8 /* OrderedHashedCollectionUnitTests-tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C953E1321798F88008089A8 /* OrderedDictionaryTests */ = {
+		9C953E1321798F88008089A8 /* OrderedHashedCollectionUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C953E232179903B008089A8 /* OrderedDictionaryTests.swift */,
+				9C8621902194A02E00D4202A /* Set */,
+				9C86218F2194A02800D4202A /* Dictionary */,
 				9C953E1421798F88008089A8 /* Supporting Files */,
 			);
-			path = OrderedDictionaryTests;
+			path = OrderedHashedCollectionUnitTests;
 			sourceTree = "<group>";
 		};
 		9C953E1421798F88008089A8 /* Supporting Files */ = {
@@ -158,14 +234,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9C953E1621798F88008089A8 /* OrderedDictionary */ = {
+		9C953E1621798F88008089A8 /* OrderedHashedCollection */ = {
 			isa = PBXGroup;
 			children = (
-				9C953E1921798FA5008089A8 /* OrderedDictionary.swift */,
-				9C953E1E21798FBD008089A8 /* OrderedDictionarySlice.swift */,
+				9C86218E2194A02400D4202A /* Set */,
+				9C86218D2194A01F00D4202A /* Dictionary */,
 				9C953E1721798F88008089A8 /* Supporting Files */,
 			);
-			path = OrderedDictionary;
+			path = OrderedHashedCollection;
 			sourceTree = "<group>";
 		};
 		9C953E1721798F88008089A8 /* Supporting Files */ = {
@@ -210,9 +286,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9C953DB521798F22008089A8 /* OrderedDictionary-macOS */ = {
+		9C953DB521798F22008089A8 /* OrderedHashedCollection-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953DC821798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-macOS" */;
+			buildConfigurationList = 9C953DC821798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-macOS" */;
 			buildPhases = (
 				9C953DB121798F22008089A8 /* Headers */,
 				9C953DB221798F22008089A8 /* Sources */,
@@ -223,14 +299,14 @@
 			);
 			dependencies = (
 			);
-			name = "OrderedDictionary-macOS";
+			name = "OrderedHashedCollection-macOS";
 			productName = "OrderedDictionary-macOS";
-			productReference = 9C953DB621798F22008089A8 /* OrderedDictionary.framework */;
+			productReference = 9C953DB621798F22008089A8 /* OrderedHashedCollection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953DBE21798F22008089A8 /* OrderedDictionary-macOSTests */ = {
+		9C953DBE21798F22008089A8 /* OrderedHashedCollectionUnitTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953DCB21798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-macOSTests" */;
+			buildConfigurationList = 9C953DCB21798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-macOS" */;
 			buildPhases = (
 				9C953DBB21798F22008089A8 /* Sources */,
 				9C953DBC21798F22008089A8 /* Frameworks */,
@@ -241,14 +317,14 @@
 			dependencies = (
 				9C953DC221798F22008089A8 /* PBXTargetDependency */,
 			);
-			name = "OrderedDictionary-macOSTests";
+			name = "OrderedHashedCollectionUnitTests-macOS";
 			productName = "OrderedDictionary-macOSTests";
-			productReference = 9C953DBF21798F22008089A8 /* OrderedDictionary-macOSTests.xctest */;
+			productReference = 9C953DBF21798F22008089A8 /* OrderedHashedCollectionUnitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C953DD221798F2D008089A8 /* OrderedDictionary-iOS */ = {
+		9C953DD221798F2D008089A8 /* OrderedHashedCollection-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953DE421798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-iOS" */;
+			buildConfigurationList = 9C953DE421798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-iOS" */;
 			buildPhases = (
 				9C953DCE21798F2D008089A8 /* Headers */,
 				9C953DCF21798F2D008089A8 /* Sources */,
@@ -259,14 +335,14 @@
 			);
 			dependencies = (
 			);
-			name = "OrderedDictionary-iOS";
+			name = "OrderedHashedCollection-iOS";
 			productName = "OrderedDictionary-iOS";
-			productReference = 9C953DD321798F2D008089A8 /* OrderedDictionary.framework */;
+			productReference = 9C953DD321798F2D008089A8 /* OrderedHashedCollection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953DDA21798F2D008089A8 /* OrderedDictionary-iOSTests */ = {
+		9C953DDA21798F2D008089A8 /* OrderedHashedCollectionUnitTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953DE721798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-iOSTests" */;
+			buildConfigurationList = 9C953DE721798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-iOS" */;
 			buildPhases = (
 				9C953DD721798F2D008089A8 /* Sources */,
 				9C953DD821798F2D008089A8 /* Frameworks */,
@@ -277,14 +353,14 @@
 			dependencies = (
 				9C953DDE21798F2D008089A8 /* PBXTargetDependency */,
 			);
-			name = "OrderedDictionary-iOSTests";
+			name = "OrderedHashedCollectionUnitTests-iOS";
 			productName = "OrderedDictionary-iOSTests";
-			productReference = 9C953DDB21798F2D008089A8 /* OrderedDictionary-iOSTests.xctest */;
+			productReference = 9C953DDB21798F2D008089A8 /* OrderedHashedCollectionUnitTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C953DEE21798F34008089A8 /* OrderedDictionary-watchOS */ = {
+		9C953DEE21798F34008089A8 /* OrderedHashedCollection-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953DF421798F34008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-watchOS" */;
+			buildConfigurationList = 9C953DF421798F34008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-watchOS" */;
 			buildPhases = (
 				9C953DEA21798F34008089A8 /* Headers */,
 				9C953DEB21798F34008089A8 /* Sources */,
@@ -295,14 +371,14 @@
 			);
 			dependencies = (
 			);
-			name = "OrderedDictionary-watchOS";
+			name = "OrderedHashedCollection-watchOS";
 			productName = "OrderedDictionary-watchOS";
-			productReference = 9C953DEF21798F34008089A8 /* OrderedDictionary.framework */;
+			productReference = 9C953DEF21798F34008089A8 /* OrderedHashedCollection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953DFB21798F3E008089A8 /* OrderedDictionary-tvOS */ = {
+		9C953DFB21798F3E008089A8 /* OrderedHashedCollection-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953E0D21798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-tvOS" */;
+			buildConfigurationList = 9C953E0D21798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-tvOS" */;
 			buildPhases = (
 				9C953DF721798F3E008089A8 /* Headers */,
 				9C953DF821798F3E008089A8 /* Sources */,
@@ -313,14 +389,14 @@
 			);
 			dependencies = (
 			);
-			name = "OrderedDictionary-tvOS";
+			name = "OrderedHashedCollection-tvOS";
 			productName = "OrderedDictionary-tvOS";
-			productReference = 9C953DFC21798F3E008089A8 /* OrderedDictionary.framework */;
+			productReference = 9C953DFC21798F3E008089A8 /* OrderedHashedCollection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953E0321798F3E008089A8 /* OrderedDictionary-tvOSTests */ = {
+		9C953E0321798F3E008089A8 /* OrderedHashedCollectionUnitTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953E1021798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-tvOSTests" */;
+			buildConfigurationList = 9C953E1021798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-tvOS" */;
 			buildPhases = (
 				9C953E0021798F3E008089A8 /* Sources */,
 				9C953E0121798F3E008089A8 /* Frameworks */,
@@ -331,9 +407,9 @@
 			dependencies = (
 				9C953E0721798F3E008089A8 /* PBXTargetDependency */,
 			);
-			name = "OrderedDictionary-tvOSTests";
+			name = "OrderedHashedCollectionUnitTests-tvOS";
 			productName = "OrderedDictionary-tvOSTests";
-			productReference = 9C953E0421798F3E008089A8 /* OrderedDictionary-tvOSTests.xctest */;
+			productReference = 9C953E0421798F3E008089A8 /* OrderedHashedCollectionUnitTests-tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -372,7 +448,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C953CE321797EC0008089A8 /* Build configuration list for PBXProject "OrderedDictionary" */;
+			buildConfigurationList = 9C953CE321797EC0008089A8 /* Build configuration list for PBXProject "OrderedHashedCollection" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -384,13 +460,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C953DB521798F22008089A8 /* OrderedDictionary-macOS */,
-				9C953DBE21798F22008089A8 /* OrderedDictionary-macOSTests */,
-				9C953DD221798F2D008089A8 /* OrderedDictionary-iOS */,
-				9C953DDA21798F2D008089A8 /* OrderedDictionary-iOSTests */,
-				9C953DEE21798F34008089A8 /* OrderedDictionary-watchOS */,
-				9C953DFB21798F3E008089A8 /* OrderedDictionary-tvOS */,
-				9C953E0321798F3E008089A8 /* OrderedDictionary-tvOSTests */,
+				9C953DB521798F22008089A8 /* OrderedHashedCollection-macOS */,
+				9C953DBE21798F22008089A8 /* OrderedHashedCollectionUnitTests-macOS */,
+				9C953DD221798F2D008089A8 /* OrderedHashedCollection-iOS */,
+				9C953DDA21798F2D008089A8 /* OrderedHashedCollectionUnitTests-iOS */,
+				9C953DEE21798F34008089A8 /* OrderedHashedCollection-watchOS */,
+				9C953DFB21798F3E008089A8 /* OrderedHashedCollection-tvOS */,
+				9C953E0321798F3E008089A8 /* OrderedHashedCollectionUnitTests-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -452,7 +528,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621BC2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */,
+				9C8621922194A0A900D4202A /* OrderedSet.swift in Sources */,
+				9C8621B72195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */,
 				9C953E1F21798FBD008089A8 /* OrderedDictionarySlice.swift in Sources */,
+				9C8621C12195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */,
 				9C953E1A21798FA5008089A8 /* OrderedDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +541,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621B121957E5800D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */,
+				9C86219B21951BD100D4202A /* OrderedSetTests.swift in Sources */,
 				9C953E2A21799048008089A8 /* OrderedDictionaryTests.swift in Sources */,
+				9C8621A521957E3B00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */,
+				9C8621B021957E5800D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +553,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621BD2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */,
+				9C8621932194A0A900D4202A /* OrderedSet.swift in Sources */,
+				9C8621B82195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */,
 				9C953E2021798FBD008089A8 /* OrderedDictionarySlice.swift in Sources */,
+				9C8621C22195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */,
 				9C953E1B21798FA5008089A8 /* OrderedDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,7 +566,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621B321957E5800D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */,
+				9C86219C21951BD200D4202A /* OrderedSetTests.swift in Sources */,
 				9C953E2921799047008089A8 /* OrderedDictionaryTests.swift in Sources */,
+				9C8621A421957E3B00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */,
+				9C8621B221957E5800D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +578,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621BE2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */,
+				9C8621942194A0A900D4202A /* OrderedSet.swift in Sources */,
+				9C8621B92195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */,
 				9C953E2121798FBD008089A8 /* OrderedDictionarySlice.swift in Sources */,
+				9C8621C32195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */,
 				9C953E1C21798FA5008089A8 /* OrderedDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +591,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621BF2195811A00D4202A /* OrderedSet+RangeReplaceableCollection.swift in Sources */,
+				9C8621952194A0A900D4202A /* OrderedSet.swift in Sources */,
+				9C8621BA2195810A00D4202A /* OrderedSet+RandomAccessCollection.swift in Sources */,
 				9C953E2221798FBD008089A8 /* OrderedDictionarySlice.swift in Sources */,
+				9C8621C42195812B00D4202A /* OrderedSet+SetAlgebra.swift in Sources */,
 				9C953E1D21798FA5008089A8 /* OrderedDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,7 +604,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8621B521957E5900D4202A /* OrderedSet+SetAlgebraTests.swift in Sources */,
+				9C86219D21951BD200D4202A /* OrderedSetTests.swift in Sources */,
 				9C953E2821799047008089A8 /* OrderedDictionaryTests.swift in Sources */,
+				9C8621A321957E3A00D4202A /* OrderedSet+RandomAccessCollectionTests.swift in Sources */,
+				9C8621B421957E5900D4202A /* OrderedSet+RangeReplaceableCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,17 +617,17 @@
 /* Begin PBXTargetDependency section */
 		9C953DC221798F22008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953DB521798F22008089A8 /* OrderedDictionary-macOS */;
+			target = 9C953DB521798F22008089A8 /* OrderedHashedCollection-macOS */;
 			targetProxy = 9C953DC121798F22008089A8 /* PBXContainerItemProxy */;
 		};
 		9C953DDE21798F2D008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953DD221798F2D008089A8 /* OrderedDictionary-iOS */;
+			target = 9C953DD221798F2D008089A8 /* OrderedHashedCollection-iOS */;
 			targetProxy = 9C953DDD21798F2D008089A8 /* PBXContainerItemProxy */;
 		};
 		9C953E0721798F3E008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953DFB21798F3E008089A8 /* OrderedDictionary-tvOS */;
+			target = 9C953DFB21798F3E008089A8 /* OrderedHashedCollection-tvOS */;
 			targetProxy = 9C953E0621798F3E008089A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -600,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -612,7 +716,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-macOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -676,7 +780,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -687,7 +791,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-macOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -752,7 +856,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -819,7 +923,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -894,7 +998,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -906,7 +1010,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-iOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -969,7 +1073,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -980,7 +1084,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-iOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1046,7 +1150,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1113,7 +1217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1191,7 +1295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1202,7 +1306,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-watchOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1267,7 +1371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1277,7 +1381,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-watchOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1348,7 +1452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1359,7 +1463,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-tvOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1423,7 +1527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollection/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1433,7 +1537,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.OrderedDictionary-tvOS";
-				PRODUCT_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedHashedCollection;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1499,7 +1603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1565,7 +1669,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "OrderedDictionary/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "OrderedHashedCollectionUnitTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1588,7 +1692,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C953CE321797EC0008089A8 /* Build configuration list for PBXProject "OrderedDictionary" */ = {
+		9C953CE321797EC0008089A8 /* Build configuration list for PBXProject "OrderedHashedCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953CE421797EC0008089A8 /* Debug */,
@@ -1597,7 +1701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953DC821798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-macOS" */ = {
+		9C953DC821798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953DC921798F22008089A8 /* Debug */,
@@ -1606,7 +1710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953DCB21798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-macOSTests" */ = {
+		9C953DCB21798F22008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953DCC21798F22008089A8 /* Debug */,
@@ -1615,7 +1719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953DE421798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-iOS" */ = {
+		9C953DE421798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953DE521798F2D008089A8 /* Debug */,
@@ -1624,7 +1728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953DE721798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-iOSTests" */ = {
+		9C953DE721798F2D008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953DE821798F2D008089A8 /* Debug */,
@@ -1633,7 +1737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953DF421798F34008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-watchOS" */ = {
+		9C953DF421798F34008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953DF521798F34008089A8 /* Debug */,
@@ -1642,7 +1746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953E0D21798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-tvOS" */ = {
+		9C953E0D21798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollection-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953E0E21798F3E008089A8 /* Debug */,
@@ -1651,7 +1755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953E1021798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedDictionary-tvOSTests" */ = {
+		9C953E1021798F3E008089A8 /* Build configuration list for PBXNativeTarget "OrderedHashedCollectionUnitTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953E1121798F3E008089A8 /* Debug */,
