@@ -1,6 +1,6 @@
 //
 //  OrderedSet.swift
-//  OrderedHashedCollection
+//  OrderedHashedCollections
 //
 //  Created on 9/11/2018.
 //

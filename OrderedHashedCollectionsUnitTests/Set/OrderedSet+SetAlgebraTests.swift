@@ -1,6 +1,6 @@
 //
 //  OrderedSet+SetAlgebraTests.swift
-//  OrderedHashedCollection
+//  OrderedHashedCollections
 //
 //  Created on 9/11/2018.
 //
@@ -8,7 +8,7 @@
 import XCTest
 
 @testable
-import OrderedHashedCollection
+import OrderedHashedCollections
 
 
 class OrderedSet_SetAlgebraTests: XCTestCase {

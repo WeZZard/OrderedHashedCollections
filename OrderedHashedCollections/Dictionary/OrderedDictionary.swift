@@ -1,6 +1,6 @@
 //
-//  OrderedHashedCollection.swift
-//  OrderedHashedCollection
+//  OrderedHashedDictionary.swift
+//  OrderedHashedCollections
 //
 //  Created by WeZZard on 27/01/2018.
 //

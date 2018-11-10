@@ -1,6 +1,6 @@
 //
 //  OrderedHashedCollectionTests.swift
-//  OrderedHashedCollection
+//  OrderedHashedCollections
 //
 //  Created by WeZZard on 28/01/2018.
 //
@@ -8,7 +8,7 @@
 import XCTest
 
 @testable
-import OrderedHashedCollection
+import OrderedHashedCollections
 
 class OrderedDictionaryTests: XCTestCase {
     // MARK: Testing Initialization with Array Literal
