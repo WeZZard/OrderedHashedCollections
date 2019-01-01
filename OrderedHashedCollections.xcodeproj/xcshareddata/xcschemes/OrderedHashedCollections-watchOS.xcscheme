@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9C953DEE21798F34008089A8"
-               BuildableName = "OrderedHashedCollection.framework"
+               BuildableName = "OrderedHashedCollections.framework"
                BlueprintName = "OrderedHashedCollections-watchOS"
                ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953DEE21798F34008089A8"
-            BuildableName = "OrderedHashedCollection.framework"
+            BuildableName = "OrderedHashedCollections.framework"
             BlueprintName = "OrderedHashedCollections-watchOS"
             ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953DEE21798F34008089A8"
-            BuildableName = "OrderedHashedCollection.framework"
+            BuildableName = "OrderedHashedCollections.framework"
             BlueprintName = "OrderedHashedCollections-watchOS"
             ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
          </BuildableReference>

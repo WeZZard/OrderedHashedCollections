@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9C953DFB21798F3E008089A8"
-               BuildableName = "OrderedHashedCollection.framework"
+               BuildableName = "OrderedHashedCollections.framework"
                BlueprintName = "OrderedHashedCollections-tvOS"
                ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953DFB21798F3E008089A8"
-            BuildableName = "OrderedHashedCollection.framework"
+            BuildableName = "OrderedHashedCollections.framework"
             BlueprintName = "OrderedHashedCollections-tvOS"
             ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953DFB21798F3E008089A8"
-            BuildableName = "OrderedHashedCollection.framework"
+            BuildableName = "OrderedHashedCollections.framework"
             BlueprintName = "OrderedHashedCollections-tvOS"
             ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953DFB21798F3E008089A8"
-            BuildableName = "OrderedHashedCollection.framework"
+            BuildableName = "OrderedHashedCollections.framework"
             BlueprintName = "OrderedHashedCollections-tvOS"
             ReferencedContainer = "container:OrderedHashedCollections.xcodeproj">
          </BuildableReference>
